@@ -97,6 +97,8 @@ export default function Home() {
           />
           Go to nextjs.org →
           AAA
+
+          Cobaan
         </a>
       </footer>
     </div>
