@@ -96,9 +96,6 @@ export default function Home() {
             height={16}
           />
           Go to nextjs.org →
-          AAA
-
-          Cobaan
         </a>
       </footer>
     </div>
