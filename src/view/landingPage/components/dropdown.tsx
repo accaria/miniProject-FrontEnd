@@ -40,7 +40,7 @@ export default function Dropdown(){
             </li>
             <li>
               <Link href="/landingPage" className="block px-4 py-2 hover:bg-gray-100">
-                Contact
+                Contacts
               </Link>
             </li>
           </ul>
