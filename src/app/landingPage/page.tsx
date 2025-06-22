@@ -1,11 +1,9 @@
-import LandingPageView from "@/view/landingPageView";
-import EventsListsPageView from "@/view/eventsListsPageView";
+import LandingPageView from "@/view/landingPage"
 
 export default function LandingPage(){
     return(
         <>
         <LandingPageView/>
-        <EventsListsPageView/>
         </>
     )
 }

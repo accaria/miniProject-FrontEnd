@@ -11,6 +11,7 @@ export interface IEvent{
     publicationDate:string,
     eventOrganizer:string,
     eventDate:string,
-    eventType:string   
+    eventType:string,
+    eventLocation:string   
 }
 }

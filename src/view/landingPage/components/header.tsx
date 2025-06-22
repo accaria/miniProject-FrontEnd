@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Dropdown from "./dropdown"
+import SearchBar from "./searchBar"
 
 export default function Header(){
     return(
@@ -10,6 +11,9 @@ export default function Header(){
         NEW: Create on-brand event pages with our new Box Office Design Tool!
         </div>
         </Link>
+         <div>
+        <SearchBar/>
+        </div>
         <div className="flex flex-row justify-between">
         <div className="w-1/2"><img src="/ticketLogo.png" alt="ticketLogo" /></div>
         <div className="w-1/2 flex justify-end lg:hidden">
@@ -20,12 +24,6 @@ export default function Header(){
         <div><Link href={"/"}>Services</Link></div>
         <div><Link href={"/"}>Contact</Link></div>
         </div>
-        </div>
-        <div className="text-center text-4xl lg:text-4xl font-bold">
-            Discover <span className="text-pink-400">amazing events</span> and <br className="hidden lg:block" />get inspired!
-        </div>
-        <div className="text-center text-2xl lg:text-3xl font-medium">
-            Take a peek at some amazing events using Ticket Tailor
         </div>
         </div>
         
