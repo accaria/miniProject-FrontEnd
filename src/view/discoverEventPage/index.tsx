@@ -40,13 +40,19 @@ export default function DiscoverEventView(){
         </button>
         </div>
 
-        {/*NEED FIXING*/}
-        <div className="container mx-auto px-4">
+        
+        
+        </>
+    )
+}
+
+
+
+/*
+<div className="container mx-auto px-4">
         {selectedTab === 'free' && <EventsListsFree />}
         {selectedTab === 'paid' && <EventsListsPaid />}
         {selectedTab === 'bandung' && <EventsListsBandung />}
         {selectedTab === 'jakarta' && <EventsListsJakarta />}
         </div>
-        </>
-    )
-}
+*/
